@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shape
+namespace ShapeWithInterfaces
 {
-    abstract class Quadrilateral : Shape
+    interface IQuadrilateral : IShape
     {
         //I could think of nothing that a quadrilateral has that a shape doesnt have.
         //A rectangle also needs nothing from a quadrilateral, since they both have 4 sides.
